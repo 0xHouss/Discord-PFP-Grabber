@@ -26,5 +26,3 @@ if not path.isdir("Profile Pictures"):
     makedirs("Profile Pictures\\")
 
 pfp_image.save(f"Profile Pictures\\{username}.png")
-
-# pfp.save(f"/Profile Pictures/{username}.png")
